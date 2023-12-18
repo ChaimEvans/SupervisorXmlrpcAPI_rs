@@ -3,7 +3,7 @@ Rust API client for Supervisor
 
 ## Usage
 ```rust
-let Ok(res) = SupervisorXmlrpc::url().get_state();
+let Ok(res) = supervisor_xmlrpc::url().get_state();
 ```
 ## Methods
 ```rust
